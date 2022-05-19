@@ -52,7 +52,7 @@ export default function Navbar({darkMode, setDarkMode}) {
                                 </Link>
                             </MenuItem>
                             <MenuItem className={darkMode===true ? "menu-list-dark" : "menu-list-light"}>
-                                <a href='https://github.io'>
+                                <a href='https://github.com/aishyuu/Personal-Website'>
                                     Source Code
                                 </a>
                             </MenuItem>
