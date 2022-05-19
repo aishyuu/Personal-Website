@@ -1,0 +1,50 @@
+.full-info{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: clamp(2em, 3vw, 5em)
+}
+
+.profile-info {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp {
+    width: 15%;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.hi {
+   font-size: 24px;
+}
+
+.description {
+    width: 80%;
+    margin: 15px auto 30px auto;
+}
+
+.on-web {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.social-links {
+    display: grid;
+    width: 80%;
+    margin: 20px auto auto;
+}

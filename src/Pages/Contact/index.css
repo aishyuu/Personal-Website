@@ -1,0 +1,24 @@
+.contact-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-input, .email-address-input, .subject-input, .message-input {
+    text-align:center;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.form-control {
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.btn {
+    margin-bottom: 100%;
+    background-color: teal;
+    padding: 3px;
+}

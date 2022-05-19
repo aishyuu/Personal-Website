@@ -1,0 +1,48 @@
+[{
+    "Number" : 1,
+    "Button-Title": "This portfolio!",
+    "Modal-Title": "This site you're seeing right now!",
+    "Modal-Body": "This website is a culmination of all the things I've learned so far and I'd like to say I'm pretty proud of it.",
+    "Technologies": "HTML, Plain CSS, Javascript, React",
+    "Libraries": "Chakra UI, Animate.css, React-Router, Framer-Motion",
+    "Image": "PortfolioSite.png",
+    "Try-out": "#",
+    "Blog-Link": "../Images/FeatherWeather.png",
+    "Github-Source": "https://github.com/aishyuu/Personal-Website"
+},
+{
+    "Number": 2,
+    "Button-Title": "Feather Weather",
+    "Modal-Title": "Feather Weather",
+    "Modal-Body": "This website was my first dip into multi page react apps and API's. This website takes a city inputted by the user and the site displays the weather information for current, 48 hours(hour by hour), and 7 day forecasts.",
+    "Technologies": "HTML, Plain CSS, Javascript, React, Open Weather API, Auto Correct API",
+    "Libraries": "Bootstrap",
+    "Image": "../Images/FeatherWeather.png",
+    "Try-out": "https://aishyuu.github.io/feather-weather/",
+    "Blog-Link": "https://imatiasc.blogspot.com/2022/05/feather-weather-part-3.html",
+    "Github-Source": "https://github.com/aishyuu/feather-weather"
+},
+{
+    "Number": 3,
+    "Button-Title": "Meme Maker",
+    "Modal-Title": "Funny haha generator",
+    "Modal-Body": "This website was my first project using React. I got to work with different react hooks, and really get used to the React workflow.",
+    "Technologies": "HTML, Plain CSS, Javascript, React, Custom API",
+    "Libraries": "None",
+    "Image": "../Images/MemeGenerator.png",
+    "Try-out":"https://aishyuu.github.io/meme-generator/",
+    "Blog-Link": "https://imatiasc.blogspot.com/2022/04/meme-maker.html",
+    "Github-Source": "https://github.com/aishyuu/meme-generator"
+},
+{
+    "Number": 4,
+    "Button-Title": "Palindrome",
+    "Modal-Title": "Palindrome checker (School Project)",
+    "Modal-Body": "A school project where I lead a group through making a palindrome checker using Java",
+    "Technologies": "Java, Terminal",
+    "Libraries": "None",
+    "Image": "../Images/PortfolioSite.png",
+    "Try-out": "#",
+    "Blog-Link": "https://imatiasc.blogspot.com/2021/10/palindrome-project.html",
+    "Github-Source": "https://github.com/aishyuu/PalindromeCheckerAndExpander/tree/main/Code"
+}]

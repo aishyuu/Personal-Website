@@ -1,0 +1,115 @@
+.navbar-full {
+    height: 60px;
+    padding: 1px;
+    display: flex;
+}
+
+.navbar-content {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo-content {
+    display: flex;
+    margin-top: 5px;
+    width: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-image {
+    width: 30px;
+}
+
+.logo-text {
+    font-size: clamp(1em, 2vw, 24px);
+    margin: 10px 25px 0 12px;
+}
+
+.dark-mode {
+    background-color: #181c31;
+    color: white;
+}
+
+.light-mode {
+    background-color:#FFFDD0;
+}
+
+.nav-content {
+    display: flex;
+    height: 50%;
+    padding-top: 23px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.source-link {
+    display: flex;
+}
+
+.github-icon {
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+.toggle-div {
+    margin: 20px 0 8px auto;
+    height: 30px;
+    width: 30px;
+    border: 1px solid none;
+    border-radius: 5px;
+    color: black;
+}
+
+.dark-toggle {
+    background-color:blueviolet;
+}
+
+.light-toggle {
+    background-color:rgb(255, 199, 44);
+}
+
+.dark-mode-toggle {
+    background: none;
+    box-shadow: none;
+    height:100%;
+    width:100%;
+}
+
+.menu-button {
+    margin-left: auto;
+    margin-top: 15px;
+    z-index: 2;
+}
+
+.menu-button-dark {
+    background-color: rgb(14, 49, 102);
+    color: white;
+}
+
+.menu-button-light {
+    background-color:rgb(247, 155, 102);
+    color: black;
+    z-index: 2;
+}
+
+.menu-list-dark {
+    background-color: rgb(44, 44, 126);
+    z-index: 2;
+}
+
+.menu-list-dark :focus {
+    background-color: rgb(25, 25, 80);
+    z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .toggle-div{
+        margin-left:15px;
+    }
+}

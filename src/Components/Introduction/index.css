@@ -1,0 +1,75 @@
+.introduction-full {
+    width: 50%;
+    margin: 5em auto 0 auto;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.dark {
+    color: white;
+}
+
+.light {
+    color: black
+}
+
+
+
+.header-text {
+    font-size: clamp(1em, 2vw, 2em);
+}
+
+.footer-text {
+    font-size: clamp(0.5em, 2vw, 5em);
+    width: 40%;
+    margin-left: auto;
+}
+
+.animated-text {
+    font-size: clamp(2em, 6vw, 10em);
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.dark-animated::before {
+    background: rgb(58, 165, 156);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.dark-animated:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.light-animated::before {
+    background: rgb(255, 183, 88);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.light-animated:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}

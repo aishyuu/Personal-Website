@@ -1,0 +1,80 @@
+.light {
+    color:black;
+}
+
+.tab-section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-title {
+    width: auto;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.button-set {
+    display: flex;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.btn {
+    margin-right: 15px;
+}
+
+.Technologies {
+    margin-top: 20px;
+}
+
+.Tech-Title {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.Libraries-List {
+    margin-top: 20px;
+}
+
+.Library-Title {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.Tech-List, .Library-List, .Tech-List {
+    font-size: 20px;
+}
+
+.work-image {
+    margin-top: 30px;
+}
+
+.work-title {
+    text-align:center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.input-div {
+    margin-top: 15px;
+}
+
+.contact-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
