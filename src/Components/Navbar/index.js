@@ -11,7 +11,7 @@ export default function Navbar({darkMode, setDarkMode}) {
         <div className={darkMode === true ? "dark-mode navbar-full" : "light-mode navbar-full"}>
             <div className="navbar-content">    
                     <div className = {darkMode === true ? "dark-mode logo-content" : "light logo-content"}>
-                        <Link to="/" className='logo'>
+                        <Link to="/Personal-Website" className='logo'>
                             <img src={Logo} className="logo-image" alt="logo" />
                             <h3 className="logo-text">Ivan Matias</h3>
                         </Link>
