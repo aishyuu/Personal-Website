@@ -1,5 +1,30 @@
-[{
-    "Number" : 1,
+[
+{
+    "Number": 1,
+    "Button-Title": "Restaurant Landing",
+    "Modal-Title": "Restaurant Landing Page from UI/UX design",
+    "Modal-Body": "A project where I took a UI/UX design and implemented it using React",
+    "Technologies": "HTML, CSS, Javascript, React",
+    "Libraries": "None",
+    "Image": "../Images/Restaurant.png",
+    "Try-out": "https://aishyuu.github.io/Restaurant-UI-UX/",
+    "Blog-Link": "https://imatiasc.blogspot.com/2022/06/restaurant-ui-copy.html",
+    "Github-Source": "https://github.com/aishyuu/Restaurant-UI-UX"
+},
+{
+    "Number": 2,
+    "Button-Title": "Google Clone",
+    "Modal-Title": "Working Search Engine Google Clone",
+    "Modal-Body": "Used an API to create a search engine where the user can search for standard search results, images, videos, and news articles",
+    "Technologies": "HTML, CSS, Javascript, React, Custom API",
+    "Libraries": "Tailwind, RapidAPI",
+    "Image": "../Images/Goggles.png",
+    "Try-out":"https://aishyuu.github.io/Goggles/",
+    "Blog-Link": "https://imatiasc.blogspot.com/2022/06/google-clone.html",
+    "Github-Source": "https://github.com/aishyuu/Goggles"
+},
+{
+    "Number" : 3,
     "Button-Title": "This portfolio!",
     "Modal-Title": "This site you're seeing right now!",
     "Modal-Body": "This website is a culmination of all the things I've learned so far and I'd like to say I'm pretty proud of it.",
@@ -11,7 +36,7 @@
     "Github-Source": "https://github.com/aishyuu/Personal-Website"
 },
 {
-    "Number": 2,
+    "Number": 4,
     "Button-Title": "Feather Weather",
     "Modal-Title": "Feather Weather",
     "Modal-Body": "This website was my first dip into multi page react apps and API's. This website takes a city inputted by the user and the site displays the weather information for current, 48 hours(hour by hour), and 7 day forecasts.",
@@ -21,28 +46,4 @@
     "Try-out": "https://aishyuu.github.io/feather-weather/",
     "Blog-Link": "https://imatiasc.blogspot.com/2022/05/feather-weather-part-3.html",
     "Github-Source": "https://github.com/aishyuu/feather-weather"
-},
-{
-    "Number": 3,
-    "Button-Title": "Meme Maker",
-    "Modal-Title": "Funny haha generator",
-    "Modal-Body": "This website was my first project using React. I got to work with different react hooks, and really get used to the React workflow.",
-    "Technologies": "HTML, Plain CSS, Javascript, React, Custom API",
-    "Libraries": "None",
-    "Image": "../Images/MemeGenerator.png",
-    "Try-out":"https://aishyuu.github.io/meme-generator/",
-    "Blog-Link": "https://imatiasc.blogspot.com/2022/04/meme-maker.html",
-    "Github-Source": "https://github.com/aishyuu/meme-generator"
-},
-{
-    "Number": 4,
-    "Button-Title": "Palindrome",
-    "Modal-Title": "Palindrome checker (School Project)",
-    "Modal-Body": "A school project where I lead a group through making a palindrome checker using Java",
-    "Technologies": "Java, Terminal",
-    "Libraries": "None",
-    "Image": "../Images/PortfolioSite.png",
-    "Try-out": "#",
-    "Blog-Link": "https://imatiasc.blogspot.com/2021/10/palindrome-project.html",
-    "Github-Source": "https://github.com/aishyuu/PalindromeCheckerAndExpander/tree/main/Code"
 }]

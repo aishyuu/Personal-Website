@@ -5,8 +5,8 @@ import { faBlog, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import featherWeather from '../../Assets/Images/FeatherWeather.png'
 import portfolio from '../../Assets/Images/PortfolioSite.png'
-import memes from '../../Assets/Images/MemeGenerator.png'
-import placeholder from '../../Assets/Images/placeholder.jpg'
+import goggles from '../../Assets/Images/Goggles.png'
+import restaurant from '../../Assets/Images/Restaurant.png'
 import './index.css'
 
 export default function Works( {darkMode}) {
@@ -15,16 +15,16 @@ export default function Works( {darkMode}) {
     function imageSelector(number) {
         switch(number) {
             case 1:
-                return portfolio;
+                return restaurant;
                 
             case 2:
-                return featherWeather;
+                return goggles;
                 
             case 3:
-                return memes;
+                return portfolio;
                 
             default:
-                return placeholder;
+                return featherWeather;
         }
     }
 
