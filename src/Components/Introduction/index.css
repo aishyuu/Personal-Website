@@ -31,7 +31,7 @@
 
 .footer-text {
     font-size: clamp(0.5em, 2vw, 5em);
-    width: 40%;
+    width: 50%;
     margin-left: auto;
 }
 
@@ -72,4 +72,14 @@
 .light-animated:hover:before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 650px) {
 }

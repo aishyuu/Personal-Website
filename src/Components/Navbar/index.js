@@ -24,9 +24,12 @@ export default function Navbar({darkMode, setDarkMode}) {
                         <Link to="/contact" className='nav-link'>
                             <h3 className="nav-text">Contact</h3>
                         </Link>
-                        <a  href="https://github.com/aishyuu/Personal-Website" className ={darkMode === true ? "dark-mode source-link" : "light source-link"}>
+                        <a  href="https://github.com/aishyuu/Personal-Website" className ={darkMode === true ? "dark-mode nav-link" : "light nav-link"}>
                             <FontAwesomeIcon className="github-icon" icon={faGithub} /> 
                             <h3 className='nav-text'>Source</h3>
+                        </a>
+                        <a href="https://imatiasc.blogspot.com/" className={darkMode === true ? "dark-mode nav-link" : "light nav-link"}>
+                            <h3 className='nav-text'>Blog</h3>
                         </a>
                     </div>
                 </Hide>
