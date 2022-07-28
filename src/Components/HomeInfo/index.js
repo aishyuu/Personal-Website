@@ -19,9 +19,9 @@ export default function HomeInfo({darkMode}) {
                 <h3 className="hi">Hi!</h3>
                 <h3>I'm a self taught developer looking for a role in the tech industry to work with the latest technologies on challenging and diverse projects</h3>
                 <h3>I'm quietly confident, naturally curious, and perpetually working on improving my craft, one problem at a time</h3>
-                <h3 className="frontend-dev">Developer in front end technologies such as HTML, CSS, Javascript, React, and Git</h3>
-                <h3 className="data-analyst">I'm also a google certified data analyst with experience in MySQL, R, and Python</h3>
-                <h3>Currently studying Mathematics at the California Polytechnic Institute of Pomona</h3>
+                <h3 className="frontend-dev">Web developer with a focus on front end technologies such as HTML, CSS, Javascript, React.js, and Next.js</h3>
+                <h3>I also have experience in back end technologies such as Node.js and Express.js</h3>
+                <h3>Currently studying Mathematics at the California Polytechnic Institute of Pomona but am prioritizing getting a full time opportunity in web development</h3>
                 <h3>When not improving my craft, I like to listen to listen to music! Find my playlist <a className="spotify-link" href="https://open.spotify.com/playlist/6ZqKH9pjWwMbfQkV4Qp7oh?si=b436a4e20dae4c39">here!</a></h3> 
             </div>
             <div className="social-links">

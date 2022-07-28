@@ -20,7 +20,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="works" element={<Works darkMode={darkMode} />} />
         </Routes>
-        <footer>
+        <footer className="footer">
           <p>Ivan Matias © 2022</p>
         </footer>
       </div>

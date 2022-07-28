@@ -48,6 +48,14 @@
     margin: 20px auto auto;
 }
 
+.spotify-link {
+    color: green;
+}
+
+.spotify-link :hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 650px) {
     .pfp {
         max-width: 30%;

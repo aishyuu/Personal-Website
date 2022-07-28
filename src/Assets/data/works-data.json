@@ -1,6 +1,18 @@
 [
 {
     "Number": 1,
+    "Button-Title": "WaToDo",
+    "Modal-Title": "A full stack to-do list",
+    "Modal-Body": "A project where I took a UI/UX design and implemented it using React",
+    "Technologies": "HTML, CSS, Javascript, React, Node.js, Express.js",
+    "Libraries": "None",
+    "Image": "../Images/WaToDo.png",
+    "Try-out": "https://shielded-basin-88693.herokuapp.com/",
+    "Blog-Link": "https://imatiasc.blogspot.com/2022/07/fullstack-todo-list.html",
+    "Github-Source": "https://github.com/aishyuu/WaToDo"
+},
+{
+    "Number": 2,
     "Button-Title": "Restaurant Landing",
     "Modal-Title": "Restaurant Landing Page from UI/UX design",
     "Modal-Body": "A project where I took a UI/UX design and implemented it using React",
@@ -10,18 +22,6 @@
     "Try-out": "https://aishyuu.github.io/Restaurant-UI-UX/",
     "Blog-Link": "https://imatiasc.blogspot.com/2022/06/restaurant-ui-copy.html",
     "Github-Source": "https://github.com/aishyuu/Restaurant-UI-UX"
-},
-{
-    "Number": 2,
-    "Button-Title": "Google Clone",
-    "Modal-Title": "Working Search Engine Google Clone",
-    "Modal-Body": "Used an API to create a search engine where the user can search for standard search results, images, videos, and news articles",
-    "Technologies": "HTML, CSS, Javascript, React, Custom API",
-    "Libraries": "Tailwind, RapidAPI",
-    "Image": "../Images/Goggles.png",
-    "Try-out":"https://aishyuu.github.io/Goggles/",
-    "Blog-Link": "https://imatiasc.blogspot.com/2022/06/google-clone.html",
-    "Github-Source": "https://github.com/aishyuu/Goggles"
 },
 {
     "Number" : 3,
